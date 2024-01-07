@@ -1,0 +1,44 @@
+<!-- res/layout/dialog_editable_marker_info.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pais" />
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ciudad" />
+
+    <EditText
+        android:id="@+id/editTextPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lugar" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion" />
+
+    <!-- Botón para añadir foto desde la galería -->
+    <Button
+        android:id="@+id/buttonAddPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir Foto" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+</LinearLayout>

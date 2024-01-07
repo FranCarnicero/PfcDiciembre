@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "355179566805",
+    "project_id": "pfcdiciembre",
+    "storage_bucket": "pfcdiciembre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355179566805:android:e456f17dcfc28b1694b45c",
+        "android_client_info": {
+          "package_name": "com.example.pfcdiciembre"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqWWlLu5YSoHM-HArLOlz_SO3BzCK1Gcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

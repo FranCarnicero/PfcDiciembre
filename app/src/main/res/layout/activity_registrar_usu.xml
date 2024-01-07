@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#B4A0D6">
+
+    <Button
+        android:id="@+id/ini_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwdRegis2"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg"
+        android:text="Registrar" />
+
+    <EditText
+        android:id="@+id/UsuarioRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwd1Regis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UsuarioRegis"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passwdRegis2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwd1Regis"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Confirmar Contraseña"
+        android:inputType="textPassword" />
+
+</RelativeLayout>

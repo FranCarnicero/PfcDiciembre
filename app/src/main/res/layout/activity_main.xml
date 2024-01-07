@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4A0D6"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/Crear_Usu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ini_sesion"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_bg"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/ini_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showPasswordCheckbox"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_bg"
+        android:text="Iniciar Sesion" />
+
+
+    <EditText
+        android:id="@+id/Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Usuario"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_bg"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/showPasswordCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwd"
+        android:layout_marginTop="8dp"
+        android:text="Mostrar Contraseña" />
+
+</RelativeLayout>
